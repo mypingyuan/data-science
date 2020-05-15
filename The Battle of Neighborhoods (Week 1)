@@ -1,0 +1,15 @@
+A description of the problem and a discussion of the background. (15 marks)
+
+In a city of greater toronto area, if someone is looking into opening a Chinese restaurant, where would we recommend to open it?
+
+Toronto is a multi-cultrue city. It has many different restaurants in different  neighbourhoods. Which neighbourhoods in toronto have the most number of chinese restaurants and most top notch chinese restaurants? The background information about restaurant location and characteristics will have to make the best choice 
+
+
+A description of the data and how it will be used to solve the problem. (15 marks)
+
+We will need two type of data to start:
+
+One dataset that contains the  boroughs and the neighborhoods that exist in each borough as well as the the latitude and logitude coordinates of each neighborhood in the city of Toronto. We can get this from wikipidia.
+
+Data of venues in the city of Toronto. We will use Foursquare api to obtain this dataset. We will map this data with the neighbourhood data and cluster the dataset with machine learning algorithm. 
+We will use the explore function to get the most common venue categories in each neighborhood, and then use this feature to group the neighborhoods into clusters.  Finally, we will use the Folium library to visualize the neighborhoods in Toronto City and their emerging clusters.
